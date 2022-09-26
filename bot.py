@@ -20,7 +20,7 @@ app = Client(
 
 @app.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
-	await message.reply_text(text =f"Salam **{message.from_user.first_name }** \n\n __Mən Dilmanc Bot'am\n Mən göndərdiyin mesajı seçdiyin dilə tərcümə etmək üçün kodlaşdırılmışam\n Başlamaq üçün mənə 1 mesaj göndər__",reply_to_message_id = message.message_id ,parse_mode="markdown", reply_markup=InlineKeyboardMarkup([ [                    InlineKeyboardButton("··>Sahibim <··" ,url="t.me/Thehusnumustafayev") ],               [InlineKeyboardButton("Blog🆘", url="t.me/thehusnumustafayevblog") ]   ]  ) )
+	await message.reply_text(text =f"Salam **{message.from_user.first_name }** \n\n __Mən Dilmanc Bot'am\n Mən göndərdiyin mesajı seçdiyin dilə tərcümə etmək üçün kodlaşdırılmışam\n Başlamaq üçün mənə 1 mesaj göndər__",reply_to_message_id = message.message_id ,parse_mode="markdown", reply_markup=InlineKeyboardMarkup([ [                    InlineKeyboardButton("··>Sahibim <··" ,url="t.me/Nixhadj") ],               [InlineKeyboardButton("Blog🆘", url="t.me/TercumeciResmi") ]   ]  ) )
                   
 
 
@@ -56,7 +56,7 @@ async def echo(client, message):
 	InlineKeyboardButton("İtalyanca",callback_data = "it"),
 	InlineKeyboardButton("Ukraynaca",callback_data = "uk"),	 
 	],
-        [InlineKeyboardButton("Burada sizin reklamınız ola bilər ✔ " ,url="https://t.me/epicreklam")
+        [InlineKeyboardButton("Burada sizin reklamınız ola bilər ✔ " ,url="https://t.me/Nixhaad")
         ],
 	[InlineKeyboardButton(" Növbəti »»»",callback_data = "page2")
 	]
@@ -86,7 +86,7 @@ async def translate_text(bot,update):
        InlineKeyboardButton("Yəhudi dili",callback_data = "yi"),
        InlineKeyboardButton("Yoruba dili",callback_data = "yo")
        ],
-       [InlineKeyboardButton("Burada sizin reklamınız ola bilər ✔ " ,url="https://t.me/epicreklam")
+       [InlineKeyboardButton("Burada sizin reklamınız ola bilər ✔ " ,url="https://t.me/Nixhaad")
        ],
        [InlineKeyboardButton(" ««« Geri",callback_data = "page5")
        
@@ -218,7 +218,7 @@ async def translate_text(bot,update):
 	InlineKeyboardButton("İtalyanca",callback_data = "it"),
 	InlineKeyboardButton("Ukraynaca",callback_data = "uk"),	 
 	],
-        [InlineKeyboardButton("Burada sizin reklamınız ola bilər ✔" ,url="https://t.me/epicreklam")
+        [InlineKeyboardButton("Burada sizin reklamınız ola bilər ✔" ,url="https://t.me/Nixhaad")
         ],
 	[InlineKeyboardButton(" Növbəti »»»",callback_data = "page2")
 	]
